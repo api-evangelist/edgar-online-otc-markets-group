@@ -1,0 +1,13 @@
+# Edgar Online (OTC Markets Group)
+
+> Edgar Online (OTC Markets Group) is a fintech company profile in the API Evangelist network, surfaced from the bain-capital-ventures VC portfolio graph. Edgar Online historically provided online access to SEC EDGAR filings and derived financial data; OTC Markets Group operates financial markets and market-data services for over-the-counter securities. This profile is an enrichment lead — no first-party OpenAPI, SDK, or developer surface has been captured for it yet.
+
+## Company
+- [Website](https://edgar-online.com/): Primary company website (DNS resolves; hosted on AWS behind Outlook/Mimecast/Salesforce mail infrastructure).
+
+## Artifacts
+- [Domain security posture](https://raw.githubusercontent.com/api-evangelist/edgar-online-otc-markets-group/refs/heads/main/security/edgar-online-otc-markets-group-domain-security.yml): Probed DNS/TLS posture for edgar-online.com (SPF present, DMARC present with p=none, no DNSSEC, no CAA).
+
+## Notes
+- No public OpenAPI, AsyncAPI, MCP server, SDK package, or developer-portal surface was reachable when this profile was enriched. AsyncAPI/webhook, packages, scopes, and error-catalog artifacts are therefore not applicable (absence is a valid, recorded result — nothing was fabricated).
+- x-source: vc-portfolio (bain-capital-ventures) — this is a lead awaiting a reachable developer surface.
